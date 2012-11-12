@@ -1,0 +1,63 @@
+﻿body {
+    padding: 0px;
+    margin:0 0 0 50%;
+    width:50%;
+    min-height:100%;
+    float:right;
+    font-size: 20px;
+}
+
+#left_col {
+    float: left;
+    width: 100%;
+    margin-left:-100%;
+    padding: 2px;
+}
+
+#left_col_inner {
+    padding: 10px;
+    min-width: 80%;
+    width: 80%;
+    min-height: 100%;
+    height: 100%;
+}
+
+#right_col {
+    padding: 2px;
+}
+
+#right_col_inner {
+    padding: 10px;
+}
+
+#bottom {
+    bottom: 5px;
+    right: 5px;
+    position:absolute;
+}
+
+.icon {
+    padding: 2px;
+}
+
+code {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 20px;
+}
+
+pre {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 20px;
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
