@@ -12,7 +12,6 @@
     <!-- App1 references -->
     <link href="/css/default.css" rel="stylesheet" />
     <script src="/js/default.js"></script>
-    <script src="/js/jquery-latest.js"></script>
     <script src="/js/appbar.js"></script>
 </head>
 <body id="body">
@@ -25,27 +24,11 @@
         </div>
     </div>
 
-    <!-- BEGINTEMPLATE: Template code for an app bar -->
     <div id="appBar" data-win-control="WinJS.UI.AppBar" data-win-options="">
-        <button 
-            data-win-control="WinJS.UI.AppBarCommand" 
-            data-win-options="{id:'cmdHome',label:'Home',icon:'home',
-                section:'global',tooltip:'Go Home'}">
-        </button>
         <button 
             data-win-control="WinJS.UI.AppBarCommand" 
             data-win-options="{id:'cmdSave',label:'Save',icon:'save',
                 section:'global',tooltip:'Save note'}">
-        </button>
-        <button 
-            data-win-control="WinJS.UI.AppBarCommand" 
-            data-win-options="{id:'cmdAdd',label:'Add',icon:'add',
-                section:'global',tooltip:'New note'}">
-        </button>
-        <button 
-            data-win-control="WinJS.UI.AppBarCommand" 
-            data-win-options="{id:'cmdMail',label:' Mail',icon:'mail',
-                section:'global',tooltip:'Mail note'}">
         </button>
         <hr 
             data-win-control="WinJS.UI.AppBarCommand" 
@@ -56,8 +39,6 @@
                 section:'global',tooltip:'Delete note'}">
         </button>
     </div>
-    <!-- ENDTEMPLATE -->
-    <!--<div id="statusMessage"></div>-->
     
 
 </body>

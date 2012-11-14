@@ -47,12 +47,15 @@
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <PackageCertificateKeyFile>App1_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>App1_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <PackageCertificateThumbprint>7437AEC8EF913E6A24AC00433EAE4389C81995F8</PackageCertificateThumbprint>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="App1_StoreKey.pfx" />
     <Content Include="default.html" />
     <Content Include="images\hash_logo.png" />
     <Content Include="images\hash_small.png" />
@@ -64,7 +67,7 @@
     <Content Include="js\Appbar.js" />
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
-    <Content Include="js\jquery-latest.js" />
+    <None Include="Package.StoreAssociation.xml" />
     <None Include="App1_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

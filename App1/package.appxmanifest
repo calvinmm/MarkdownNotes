@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="7fb83644-38e7-41e3-b2ed-6ceab76fa323" Version="1.0.0.0" Publisher="CN=Calvin MacKenzie" />
+  <Identity Name="65163CalvinMacKenzie.MarkdownNotes" Version="1.0.0.2" Publisher="CN=045B7529-B6E9-4B42-929D-89026215DCFF" />
   <Properties>
-    <DisplayName>App1</DisplayName>
+    <DisplayName>#Markdown Notes</DisplayName>
     <PublisherDisplayName>Calvin MacKenzie</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
@@ -21,7 +21,4 @@
       </VisualElements>
     </Application>
   </Applications>
-  <Capabilities>
-    <Capability Name="internetClient" />
-  </Capabilities>
 </Package>
